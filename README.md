@@ -5,7 +5,7 @@
 ## install wpa-cli first
 
 ```bash
-npm i wpa-cli -g
+npm i wpac -g
 
 ```
 
