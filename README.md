@@ -1,2 +1,22 @@
 # wpa-cli
-cli for wpa application
+
+# usage
+
+## install wpa-cli first
+
+```bash
+npm i wpa-cli -g
+
+```
+
+## create your app
+
+```bash
+wpa create my-app
+
+cd my-app
+npm i
+npm start
+```
+
+
