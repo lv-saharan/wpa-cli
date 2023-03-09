@@ -1,5 +1,5 @@
 {
-  "name": "wpa-cli",
+  "name": "wpac",
   "version": "1.0.0",
   "description": "cli for wpa",
   "private": false,
