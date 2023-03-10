@@ -1,6 +1,6 @@
 {
   "name": "wpac",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "cli for wpa",
   "private": false,
   "type": "module",

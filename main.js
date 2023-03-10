@@ -18,7 +18,7 @@ program
     .description('初始化模板')
     .action(async name => {
         // 判断用户是否输入应用名称，如果没有设置为 myApp
-        const projectName = name || 'omii-app'
+        const projectName = name || 'my-app'
         // 获取 template 文件夹路径
         const sourceProjectPath = __dirname + '/template/'
         // 获取命令所在文件夹路径
