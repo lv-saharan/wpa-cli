@@ -49,8 +49,9 @@ program
             const spinner = ora("开始下载...");
             spinner.start();
             download(
-                "lv-saharan/wpa-template-default",
+                "direct:https://kgithub.com/lv-saharan/wpa-template-default/archive/refs/heads/main.zip",
                 targetProjectPath,
+               
                 async err => {
                     if (err) {
                         spinner.fail();
