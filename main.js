@@ -14,10 +14,9 @@ import download from "download-git-repo";
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url));
 
 program.command("version").action(() => {
-//   console.log(`version is ${pkg.version}`);
+  //   console.log(`version is ${pkg.version}`);
   console.log(`version is 1.0.7`);
 });
-
 program
   .command("create <name>")
   .description("初始化模板")
@@ -57,8 +56,10 @@ program
       // 将模板文件夹中的内容复制到目标文件夹（目标文件夹为命令输入所在文件夹）
       const spinner = ora("开始下载...");
       spinner.start();
+      const downloadUrl =
+        "https://github.com/lv-saharan/wpa-template-default/archive/refs/heads/main.zip";
       download(
-        "direct:https://kgithub.com/lv-saharan/wpa-template-default/archive/refs/heads/main.zip",
+        `direct:${downloadUrl}`,
         targetProjectPath,
 
         async (err) => {
